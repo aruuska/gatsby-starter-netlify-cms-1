@@ -84,6 +84,12 @@ export default class Index extends React.Component {
                       id={'email'}
                       required={true}
                     />
+                    <select name="feedback">
+                      <option value=":(">:(/option>
+                      <option value=":|">:|</option>
+                      <option value=":)">:)</option>
+                      <option value=":D">:D</option>
+                    </select>
                   </div>
                 </div>
                 <div className="field">
